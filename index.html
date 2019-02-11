@@ -3,10 +3,11 @@
 <html>
     <head>
         <title>Google</title> 
+        <!--<link href="./styles/reset.css" type="text/css" rel="stylesheet"> -->
         <link href="./styles/style.css" type="text/css" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <div class="header">
             <div class="upper left">
                 <ul>
                     <li><a href="https://about.google/">About</a></li>
@@ -21,27 +22,32 @@
                     <li><a href="https://accounts.google.com/ServiceLogin">Sign In</a></li>
                 </ul>
             </div>
-        </header>
-        <div class="main" >
+        </div>
+        <div class="main center" >
             <div class="logo">
                 <img src="./images/logo.png" alt="google logo">
             </div>
-            <div class="search-field">
+            <div class="search-field center">
                 <form>
-                    <input type="text" name="search-box">
-                    <input type="submit" value="Google Search">
-                    <input type="submit" value="I'm Feeling Lucky">
+                    <input type="text" name="search-bar" class="search-box">
+                    <div class="submission center">
+                        <input type="submit" value="Google Search" class="submit-button">
+                        <input type="submit" value="I'm Feeling Lucky" class="submit-button">
+                    </div>
                 </form>
             </div>
         </div>
+        <div class="buffer">
+
+        </div>
         <div class="footer">
-            <div class="left">
+            <div class="bottom left">
                 <ul>
                     <li><a href="https://ads.google.com/">Advertising</a></li>
                     <li><a href="https://www.google.com/services/">Business</a></li>
                 </ul>
             </div>
-            <div class="right">
+            <div class="bottom right">
                 <ul>
                     <li><a href="https://policies.google.com/privacy">Privacy</a></li>
                     <li><a href="https://policies.google.com/terms">Terms</a></li>
