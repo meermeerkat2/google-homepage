@@ -6,6 +6,7 @@ body {
     padding: 0;
 }
 
+/* General Navbar Styling */
 ul {
     list-style-type: none;
     padding: 0;
@@ -14,6 +15,19 @@ ul {
 li {
     display: inline-block;
     font-size: 13px;
+}
+
+.left ul {
+    margin-left: 18px;
+}
+
+.right ul {
+    margin-right: 18px;
+}
+
+.text-link {
+    opacity: 0.75;
+    vertical-align: middle;
 }
 
 a {
@@ -37,115 +51,14 @@ a:hover {
     padding-left: 15px;
 }
 
+/* Upper Navbar */
+
 .upper {
     margin-top: 5px;
 }
 
-.main {
-    clear: both;
-}
-
-.center {
-    margin: 0 auto;
-    display: block;
-}
-
-.logo {
-    padding-top: 164px;
-    width: 50%;
-    margin: 0 auto;
-}
-
-.logo img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-form {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
 .header {
     margin-top: 19px;
-}
-
-.search-box {
-    width: 584px;
-    height: 44px;
-    padding: 0px 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    display: block;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-}
-
-.search-bar {
-    width: 590px;
-    height: 34px;
-}
-
-.search-bar:focus {
-    outline: none;
-}
-
-.search-box input
-{
-    width: 534px;
-    height: 34px;
-    font-size: 16px;
-    line-height: 34px;
-    padding: 5px 8px 0 16px;
-    background-color: transparent;
-    border: none;
-}
-
-.search-box input:focus{
-    outline: none;
-}
-
-.submission {
-    margin: 0 auto;
-    text-align: center;
-}
-
-.submit-button {
-    border: 1px solid #f2f2f2;
-    border-radius: 2px;
-    background-color: #f2f2f2;
-    color: #757575;
-    cursor: pointer;
-    font-size: 13px;
-    font-weight: bold;
-    margin: 11px 4px;
-    min-width: 54px;
-    padding: 0 16px;
-    text-align: center;
-    height: 36px;
-    line-height: 27px;
-}
-
-.footer {
-    background-color: #f2f2f2;
-    border-top: 1px solid #e4e4e4;
-    bottom: 0;
-    width: 100%;
-    position: absolute;
-    
-    vertical-align: middle;
-    height: 45px;
-}
-
-.left ul {
-    margin-left: 18px;
-}
-
-.right ul {
-    margin-right: 18px;
 }
 
 .apps {
@@ -178,9 +91,17 @@ form {
     text-decoration: none;
 }
 
-.text-link {
-    opacity: 0.75;
+/* Lower Navbar */
+
+.footer {
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    
     vertical-align: middle;
+    height: 45px;
 }
 
 .bottom li {
@@ -191,4 +112,93 @@ form {
 
 #settings {
     margin-right: 15px;
+}
+
+/* Main */
+.main {
+    clear: both;
+}
+
+.center {
+    margin: 0 auto;
+    display: block;
+}
+
+/* Logo */
+.logo {
+    padding-top: 164px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Form */
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Search Bar */
+.search-box {
+    width: 584px;
+    height: 44px;
+    padding: 0px 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.search-box input
+{
+    width: 534px;
+    height: 34px;
+    font-size: 16px;
+    line-height: 34px;
+    padding: 5px 8px 0 16px;
+    background-color: transparent;
+    border: none;
+}
+
+.search-box input:focus{
+    outline: none;
+}
+
+.search-bar {
+    width: 590px;
+    height: 34px;
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+/* Submit Buttons */
+.submission {
+    margin: 15px auto;
+    text-align: center;
+}
+
+.submit-button {
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    background-color: #f2f2f2;
+    color: #757575;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    height: 36px;
+    line-height: 27px;
 }
