@@ -2,8 +2,6 @@ body {
     font-family: Arial, sans-serif;
     font-size: 13px;
     height: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 /* General Navbar Styling */
@@ -52,7 +50,6 @@ a:hover {
 }
 
 /* Upper Navbar */
-
 .upper {
     margin-top: 5px;
 }
@@ -119,11 +116,6 @@ a:hover {
     clear: both;
 }
 
-.center {
-    margin: 0 auto;
-    display: block;
-}
-
 /* Logo */
 .logo {
     padding-top: 164px;
@@ -149,10 +141,7 @@ form {
 .search-box {
     width: 584px;
     height: 44px;
-    padding: 0px 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
+    margin: 20px auto 0;
     display: block;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
 }
@@ -162,7 +151,6 @@ form {
     width: 534px;
     height: 34px;
     font-size: 16px;
-    line-height: 34px;
     padding: 5px 8px 0 16px;
     background-color: transparent;
     border: none;
