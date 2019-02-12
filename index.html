@@ -4,22 +4,23 @@
     <head>
         <title>Google</title> 
         <!--<link href="./styles/reset.css" type="text/css" rel="stylesheet"> -->
+        <link href="./styles/reset.css" type="text/css" rel="stylesheet">
         <link href="./styles/style.css" type="text/css" rel="stylesheet">
     </head>
     <body>
         <div class="header">
             <div class="upper left">
                 <ul>
-                    <li><a href="https://about.google/">About</a></li>
-                    <li><a href="https://store.google.com/">Store</a></li>
+                    <li><a href="https://about.google/" class="text-link">About</a></li>
+                    <li><a href="https://store.google.com/" class="text-link">Store</a></li>
                 </ul>
             </div>
             <div class="upper right">
                 <ul>
-                    <li><a href="https://www.google.com/gmail/">Gmail</a></li>
-                    <li><a href="https://www.google.com/imghp">Images</a></li>
-                    <li><img src="./images/google_apps.png" alt="google apps icon"></li>
-                    <li><a href="https://accounts.google.com/ServiceLogin">Sign In</a></li>
+                    <li><div id="sign-in"><a href="https://accounts.google.com/ServiceLogin" >Sign In</a></div></li>
+                    <li><img src="./images/google_apps.png" alt="google apps icon" class="apps"></li>
+                    <li><a href="https://www.google.com/imghp" class="text-link">Images</a></li>
+                    <li><a href="https://www.google.com/gmail/" class="text-link">Gmail</a></li>
                 </ul>
             </div>
         </div>
@@ -30,7 +31,10 @@
             <div class="search-field center">
                 <form>
                     <div class="search-box">
+                        <div class="search-bar">
                             <input type="text" name="search-bar">
+                        </div>
+                        
                     </div>
                     
                     <div class="submission center">
@@ -46,15 +50,15 @@
         <div class="footer">
             <div class="bottom left">
                 <ul>
-                    <li><a href="https://ads.google.com/">Advertising</a></li>
-                    <li><a href="https://www.google.com/services/">Business</a></li>
+                    <li><a href="https://ads.google.com/" class="text-link">Advertising</a></li>
+                    <li><a href="https://www.google.com/services/" class="text-link">Business</a></li>
                 </ul>
             </div>
             <div class="bottom right">
                 <ul>
-                    <li><a href="https://policies.google.com/privacy">Privacy</a></li>
-                    <li><a href="https://policies.google.com/terms">Terms</a></li>
-                    <li><a href="https://www.google.com/preferences">Settings</a></li>
+                    <li><a href="https://www.google.com/preferences" class="text-link" id="settings">Settings</a></li>
+                    <li><a href="https://policies.google.com/terms" class="text-link">Terms</a></li>
+                    <li><a href="https://policies.google.com/privacy" class="text-link">Privacy</a></li>
                 </ul>
             </div>
         </div>

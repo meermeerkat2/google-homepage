@@ -13,6 +13,7 @@ ul {
 
 li {
     display: inline-block;
+    font-size: 13px;
 }
 
 a {
@@ -26,14 +27,14 @@ a:hover {
 
 .left li{
     float: left;
-    margin-left: 10px;
-    margin-right: 15px;
+    padding-left: 15px;
+    margin-right: 0px;
 }
 
 .right li{
     float: right;
-    margin-right: 15px;
-    padding-left: 10px;
+    margin-right: 0px;
+    padding-left: 15px;
 }
 
 .upper {
@@ -42,7 +43,6 @@ a:hover {
 
 .main {
     clear: both;
-    
 }
 
 .center {
@@ -55,6 +55,7 @@ a:hover {
     width: 50%;
     margin: 0 auto;
 }
+
 .logo img {
     display: block;
     margin-left: auto;
@@ -68,21 +69,43 @@ form {
     width: 50%;
 }
 
+.header {
+    margin-top: 19px;
+}
+
 .search-box {
     width: 584px;
     height: 44px;
-    padding: 20px 0;
+    padding: 0px 0;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
     display: block;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.search-bar {
+    width: 590px;
+    height: 34px;
+}
+
+.search-bar:focus {
+    outline: none;
 }
 
 .search-box input
 {
-    width: 590px;
+    width: 534px;
     height: 34px;
     font-size: 16px;
     line-height: 34px;
+    padding: 5px 8px 0 16px;
+    background-color: transparent;
+    border: none;
+}
+
+.search-box input:focus{
+    outline: none;
 }
 
 .submission {
@@ -115,4 +138,57 @@ form {
     
     vertical-align: middle;
     height: 45px;
+}
+
+.left ul {
+    margin-left: 18px;
+}
+
+.right ul {
+    margin-right: 18px;
+}
+
+.apps {
+    opacity: 0.55;
+}
+
+.apps:hover {
+    opacity: 0.85;
+}
+
+#sign-in {
+    margin-right: 15px;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    padding: 0 12px;
+    color: white; 
+    border-radius: 2px;
+    line-height: 28px;
+    margin-top: -5px;
+}
+
+#sign-in a {
+    color:white;
+}
+
+#sign-in:hover {
+    text-decoration: none;
+}
+
+.text-link {
+    opacity: 0.75;
+    vertical-align: middle;
+}
+
+.bottom li {
+    margin-top: 15px;
+    color: #5f6368;
+    padding-left: 27px;
+}
+
+#settings {
+    margin-right: 15px;
 }
